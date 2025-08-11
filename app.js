@@ -199,43 +199,59 @@ function initSkillBars() {
 // Contact form functionality
 function initContactForm() {
     const contactForm = document.getElementById('contact-form');
-    
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Get form data
             const formData = new FormData(contactForm);
+            const submitButton = contactForm.querySelector('button[type="submit"]');
+            const originalText = submitButton.innerHTML;
+            
+            // Basic validation
             const name = formData.get('name');
             const email = formData.get('email');
             const subject = formData.get('subject');
             const message = formData.get('message');
-
-            // Basic form validation
+            
             if (!name || !email || !subject || !message) {
                 showNotification('Please fill in all fields.', 'error');
                 return;
             }
-
+            
             if (!isValidEmail(email)) {
                 showNotification('Please enter a valid email address.', 'error');
                 return;
             }
-
-            // Simulate form submission
-            const submitButton = contactForm.querySelector('button[type="submit"]');
-            const originalText = submitButton.innerHTML;
             
             submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
             submitButton.disabled = true;
-
-            // Simulate API call
-            setTimeout(() => {
-                showNotification('Thank you for your message! I\'ll get back to you soon.', 'success');
-                contactForm.reset();
+            
+            // Submit to Formspree
+            fetch(contactForm.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    showNotification('Thank you for your message! I\'ll get back to you soon.', 'success');
+                    contactForm.reset();
+                } else {
+                    response.json().then(data => {
+                        if (Object.hasOwnProperty.call(data, 'errors')) {
+                            showNotification(data["errors"].map(error => error["message"]).join(", "), 'error');
+                        } else {
+                            showNotification('Oops! There was a problem submitting your form', 'error');
+                        }
+                    })
+                }
+            }).catch(error => {
+                showNotification('Oops! There was a problem submitting your form', 'error');
+            }).finally(() => {
                 submitButton.innerHTML = originalText;
                 submitButton.disabled = false;
-            }, 2000);
+            });
         });
     }
 }
