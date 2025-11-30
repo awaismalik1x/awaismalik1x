@@ -1,122 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" data-color-scheme="light">
 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Muhammad Awais Amin - Senior Machine Learning Engineer</title>
+    <meta name="description"
+        content="Muhammad Awais Amin - Senior Machine Learning Engineer with 5+ years of experience in AI/ML, Data Science, and Cloud Technologies">
+
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1-ps8bM390QEHDnXDXRlDUV5jLZ7p7lBI&sz=w32-h32">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png"
+        href="https://drive.google.com/thumbnail?id=1-ps8bM390QEHDnXDXRlDUV5jLZ7p7lBI&sz=w32-h32">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <meta name="description" content="Muhammad Awais Amin - Senior Machine Learning Engineer with 5+ years of experience in AI/ML, Data Science, and Cloud Technologies">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:wght@400;500;600;700&family=Fira+Code&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <!-- Navigation -->
-<nav class="navbar" id="navbar">
-    <div class="nav-container">
-        <div class="nav-brand">
-            <img src="https://drive.google.com/thumbnail?id=1-ps8bM390QEHDnXDXRlDUV5jLZ7p7lBI&sz=w50-h50" 
-                 alt="MAA" 
-                 class="logo-img">
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="nav-brand">
+                <img src="https://drive.google.com/thumbnail?id=1-ps8bM390QEHDnXDXRlDUV5jLZ7p7lBI&sz=w50-h50" alt="MAA">
+                <span>Awais Amin</span>
+            </a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
         </div>
-        <ul class="nav-menu" id="nav-menu">
-            <li><a href="#home" class="nav-link active">Home</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#education" class="nav-link">Education</a></li>
-            <li><a href="#experience" class="nav-link">Experience</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#certifications" class="nav-link">Certifications</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#publications" class="nav-link">Publications</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-</nav>
+    </nav>
 
-
-   <!-- Hero Section -->
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <div class="hero-text">
+                <div class="hero-text fade-in-up">
                     <h1 class="hero-title">
-                        <span class="typing-text" id="typing-text">Muhammad Awais Amin</span>
+                        <span id="typing-text">Muhammad Awais Amin</span>
                     </h1>
-                    <h2 class="hero-subtitle">Senior Machine Learning Engineer | Data Scientist | AI Enthusiast</h2>
+                    <h2 class="hero-subtitle">Senior Machine Learning Engineer | Data Scientist</h2>
                     <p class="hero-description">
-                        Transforming complex data into intelligent solutions with 5+ years of expertise in AI/ML, 
-                        Deep Learning, and scalable system architecture. Passionate researcher and AI practitioner with expertise in Machine Learning, Deep Learning, and Computer Vision. Currently seeking PhD opportunities to advance AI research and development. 
+                        Transforming complex data into intelligent solutions with 5+ years of expertise in AI/ML, Deep
+                        Learning, and scalable system architecture. Passionate researcher and AI practitioner seeking
+                        PhD opportunities to advance AI research.
                     </p>
                     <div class="hero-buttons">
                         <a href="#contact" class="btn btn--primary btn--lg">
-                            <i class="fas fa-download"></i>
-                            Download CV
+                            <i class="fas fa-paper-plane"></i> Let's Connect
                         </a>
-                        <a href="#contact" class="btn btn--outline btn--lg">
-                            <i class="fas fa-envelope"></i>
-                            Contact Me
+                        <a href="#projects" class="btn btn--outline btn--lg">
+                            <i class="fas fa-code"></i> View Work
                         </a>
                     </div>
                 </div>
-                <div class="hero-image">
+                <div class="hero-image fade-in-up">
                     <div class="profile-card">
                         <div class="profile-image-container">
-                        <img src="https://drive.google.com/thumbnail?id=1toWXP7tVcLJFxn4F4LnmhqVSEznH2X7b&sz=w400" 
-                        alt="Muhammad Awais Amin - Senior ML Engineer" class="profile-image">
+                            <img src="https://drive.google.com/thumbnail?id=1toWXP7tVcLJFxn4F4LnmhqVSEznH2X7b&sz=w400"
+                                alt="Muhammad Awais Amin" class="profile-image">
                         </div>
                         <div class="tech-icons">
                             <i class="fab fa-python"></i>
                             <i class="fas fa-brain"></i>
-                            <i class="fa-solid fa-cloud"></i>
-                            <i class="fas fa-chart-line"></i>
+                            <i class="fas fa-cloud"></i>
+                            <i class="fas fa-database"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hero-particles" id="particles"></div>
+        <div id="particles"></div>
     </section>
 
     <!-- About Section -->
-    <section class="about section-padding" id="about">
+    <section id="about" class="section-padding">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Passionate about turning data into intelligent solutions</p>
-            </div>
             <div class="about-content">
-                <div class="about-text">
-                    <p class="about-description">
-                        I am a Senior Machine Learning Engineer with over 5 years of experience in designing and deploying AI/ML solutions, data science applications, and MLOps pipelines across diverse industries. My core expertise lies in <strong>Natural Language Processing (NLP)</strong>, <strong>Computer Vision (CV)</strong>, and <strong>Generative AI (GenAI)</strong> with a proven track record of leading end-to-end development of scalable solutions.
+                <div class="about-text fade-in-up">
+                    <h2>About Me</h2>
+                    <h3>Passionate about turning data into intelligent solutions</h3>
+                    <p>
+                        I am a Senior Machine Learning Engineer with over 5 years of experience in designing and
+                        deploying AI/ML solutions, data science applications, and MLOps pipelines across diverse
+                        industries. My core expertise lies in <strong>Natural Language Processing (NLP)</strong>,
+                        <strong>Computer Vision (CV)</strong>, and <strong>Generative AI (GenAI)</strong> with a proven
+                        track record of leading end-to-end development of scalable solutions.
                     </p>
 
                     <div class="about-stats">
-                        <div class="stat-item fade-in-up">
-                            <span class="stat-number" data-target="5">5+</span>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="">7+</span>
                             <span class="stat-label">Years Experience</span>
                         </div>
-                        <div class="stat-item fade-in-up">
+                        <div class="stat-item">
                             <span class="stat-number" data-target="8">8+</span>
                             <span class="stat-label">Industries Served</span>
                         </div>
-                        <div class="stat-item fade-in-up">
+                        <div class="stat-item">
                             <span class="stat-number" data-target="12">12+</span>
                             <span class="stat-label">Certifications</span>
                         </div>
                     </div>
 
                     <div class="about-industries">
-                        <h3>Industry Experience</h3>
+                        <h4>Industry Experience</h4>
                         <div class="industries-grid">
                             <span class="industry-tag">Telecom</span>
                             <span class="industry-tag">Transportation</span>
@@ -130,38 +141,49 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-info">
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>awais2815@gmail.com</span>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Islamabad, Pakistan</span>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-graduation-cap"></i>
-                        <span>Masters in Computer Science Specialization with Data Science</span>
-                    </div>
-                    <div class="info-item">
-                        <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/awaismalik1x/" target="_blank">LinkedIn Profile</a>
-                    </div>
-                    <!-- <div class="info-item">
-                        <i class="fas fa-globe"></i>
-                        <a href="https://sites.google.com/view/awaismalik1x/" target="_blank">Personal Website</a>
-                    </div> -->
-                    <div class="info-item">
-                        <i class="fab fa-google"></i>
-                        <a href="https://scholar.google.com/citations?user=RpfNoFwAAAAJ&hl=en" target="_blank">Google Scholar</a>
-                    </div>
-                    <div class="info-item">
-                        <i class="fab fa-orcid"></i>
-                        <a href="https://orcid.org/0009-0001-4445-7606" target="_blank">ORCID</a>
-                    </div>
-                    <div class="info-item">
-                        <i class="fab fa-github"></i>
-                        <a href="https://github.com/awaismalik1x" target="_blank">GitHub</a>
+
+                <div class="about-info fade-in-up">
+                    <div class="about-info-card">
+                        <div class="info-header">
+                            <h3>Quick Info</h3>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="info-content">
+                                <h5>Email</h5>
+                                <a href="mailto:awais2815@gmail.com">awais2815@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="info-content">
+                                <h5>Location</h5>
+                                <p>Islamabad, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="info-content">
+                                <h5>Education</h5>
+                                <p>MS Computer Science (Data Science)</p>
+                            </div>
+                        </div>
+
+                        <div class="connect-links">
+                            <a href="https://www.linkedin.com/in/awaismalik1x/" target="_blank" class="connect-btn">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://scholar.google.com/citations?user=RpfNoFwAAAAJ&hl=en" target="_blank"
+                                class="connect-btn">
+                                <i class="fab fa-google"></i> Scholar
+                            </a>
+                            <a href="https://orcid.org/0009-0001-4445-7606" target="_blank" class="connect-btn">
+                                <i class="fab fa-orcid"></i> ORCID
+                            </a>
+                            <a href="https://github.com/awaismalik1x" target="_blank" class="connect-btn">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -169,1082 +191,996 @@
     </section>
 
     <!-- Education Section -->
-    <section class="education section-padding" id="education">
+    <section id="education" class="section-padding">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Education</h2>
-                <p class="section-subtitle">Academic foundation in data science and technology</p>
+            <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
+                <h2>Education</h2>
+                <p>Academic foundation in data science and technology</p>
             </div>
-            <div class="education-content">
-                <div class="education-card fade-in-up">
-                    <div class="education-icon">
-                        <i class="fas fa-university"></i>
+
+            <div class="education-card fade-in-up">
+                <div class="edu-icon-box">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="edu-content">
+                    <div class="flex justify-between items-center" style="flex-wrap: wrap;">
+                        <h3 class="edu-degree">Master of Science in Computer Science</h3>
+                        <span class="edu-year">2019 - 2021</span>
                     </div>
-                    <div class="education-info">
-                        <h3>Master of Science in Computer Science</h3>
-                        <h4>Pakistan Institute of Engineering and Applied Sciences, Islamabad</h4>
-                        <div class="education-years">2019 - 2021</div>
-                        <div class="education-details">
-                            <p>Specialized in Data Science and Computer Science (18 Years of Education)</p>
-                            <ul>
-                                <li>Focus on Machine Learning and Statistical Analysis</li>
-                                <li>Advanced coursework in Data Mining and Analytics</li>
-                                <li>Research in AI applications and algorithms</li>
-                            </ul>
-                            <p><strong>Thesis:</strong> Trajectory Data Mining of Vehicle Probe Data</p>
-                        </div>
+                    <h4 class="edu-institution">Pakistan Institute of Engineering and Applied Sciences (PIEAS),
+                        Islamabad</h4>
+
+                    <div class="scholarship-badge">
+                        <i class="fas fa-star"></i>
+                        <span>Completed from one of <strong>Pakistan's Top Engineering Universities</strong> with
+                            <strong>Ministry of IT and Telecom Scholarship</strong></span>
+                    </div>
+
+                    <div class="edu-details">
+                        <p>Specialized in Data Science and Computer Science (18 Years of Education)</p>
+                        <ul>
+                            <li>Focus on Machine Learning and Statistical Analysis</li>
+                            <li>Advanced coursework in Data Mining and Analytics</li>
+                            <li>Research in AI applications and algorithms</li>
+                        </ul>
+                        <p style="margin-top: var(--space-4);"><i class="fas fa-book"></i> <strong>Thesis:</strong>
+                            Trajectory Data Mining of Vehicle Probe Data</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Experience Section -->
-<section class="experience section-padding" id="experience">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">Professional Experience</h2>
-            <p class="section-subtitle">Journey through innovative AI and ML solutions</p>
-        </div>
-        <div class="timeline">
-            <div class="timeline-item fade-in-up">
-                <div class="timeline-content">
-                    <div class="timeline-period">May 2022 - Present</div>
-                    <h3 class="timeline-title">Lead Data Scientist</h3>
-                    <h4 class="timeline-company">SAH Analytics International</h4>
-                    <span class="timeline__location">Abidjan, Côte d'Ivoire</span>
-                    <div class="timeline-marker"></div>
-                    <p class="timeline-description" style="text-align: justify;">
-                        Collaborated extensively with cross-functional data science teams and business partners to deliver strategic AI solutions, providing technical and practical insights to help clients leverage data science and AI more effectively across their operations. Continuously promoted innovative techniques and approaches while actively reviewing and adapting external developments in machine learning and artificial intelligence to maintain competitive advantage. Spearheaded the integration of cutting-edge Generative AI technologies including LLM implementations, prompt optimization strategies, and RAG architectures to enhance client capabilities and drive digital transformation initiatives, ensuring seamless knowledge transfer and adoption of emerging AI methodologies across diverse business verticals.
-                    </p>
-                    <div class="timeline-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">TensorFlow</span>
-                        <span class="tech-tag">MLOps</span>
-                        <span class="tech-tag">Docker</span>
-                        <span class="tech-tag">RAGs</span>
-                        <span class="tech-tag">NLP</span>
-                        <span class="tech-tag">Computer Vision</span>
-                        <span class="tech-tag">Generative AI</span>
-                        <span class="tech-tag">Graph Databases</span>
-                    </div>
-                </div>
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
+                <h2>Professional Experience</h2>
+                <p>Journey through innovative AI and ML solutions</p>
             </div>
 
-            <div class="timeline-item fade-in-up">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="timeline-period">April 2022 - Present</div>
-                    <h3 class="timeline-title">Data Science Consultant</h3>
-                    <h4 class="timeline-company">Datamatics Technologies</h4>
-                    <span class="timeline__location">Islamabad, Pakistan</span>
-                    <p class="timeline-description" style="text-align: justify;">
-                        Developed, tested, debugged, deployed, and maintained production-grade NLP and computer vision algorithms while building automated analytical pipelines to optimize algorithm performance. Conducted comprehensive analysis of real-world problems to deliver practical, efficient, and creative AI solutions across diverse business domains. Managed end-to-end ML/DL projects of varying scales from initial research to production deployment. Leveraged extensive Generative AI expertise including LLM fine-tuning, prompt engineering, RAG systems, and agentic workflows to transform complex data challenges into scalable, high-value solutions with robust performance monitoring and continuous optimization.
-                    </p>
-                    <div class="timeline-tech">
-                        <span class="tech-tag">NLP</span>
-                        <span class="tech-tag">RAG Systems</span>
-                        <span class="tech-tag">Machine Learning</span>
-                        <span class="tech-tag">Computer Vision</span>
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Deep Learning</span>
-                        <span class="tech-tag">Anomaly Detection</span>
-                        <span class="tech-tag">Predictive Analytics</span>
+            <div class="timeline">
+                <!-- Experience Item 1 -->
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">May 2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Lead Data Scientist</h3>
+                        <h4 style="color: var(--primary-color); margin-bottom: var(--space-2);">SAH Analytics
+                            International</h4>
+                        <p style="font-size: 0.9rem; margin-bottom: var(--space-4);"><i
+                                class="fas fa-map-marker-alt"></i> Abidjan, Côte d'Ivoire</p>
+                        <p>
+                            Collaborated extensively with cross-functional data science teams and business partners to
+                            deliver strategic AI solutions, providing technical and practical insights to help clients
+                            leverage data science and AI more effectively across their operations. Continuously promoted
+                            innovative techniques and approaches while actively reviewing and adapting external
+                            developments in machine learning and artificial intelligence to maintain competitive
+                            advantage. Spearheaded the integration of cutting-edge Generative AI technologies including
+                            LLM implementations, prompt optimization strategies, and RAG architectures to enhance client
+                            capabilities and drive digital transformation initiatives, ensuring seamless knowledge
+                            transfer and adoption of emerging AI methodologies across diverse business verticals.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">TensorFlow</span>
+                            <span class="project-tag">MLOps</span>
+                            <span class="project-tag">Generative AI</span>
+                            <span class="project-tag">RAGs</span>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">April 2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Data Science Consultant</h3>
+                        <h4 style="color: var(--primary-color); margin-bottom: var(--space-2);">Datamatics Technologies
+                        </h4>
+                        <p style="font-size: 0.9rem; margin-bottom: var(--space-4);"><i
+                                class="fas fa-map-marker-alt"></i> Islamabad, Pakistan</p>
+                        <p>
+                            Developed, tested, debugged, deployed, and maintained production-grade NLP and computer
+                            vision algorithms while building automated analytical pipelines to optimize algorithm
+                            performance. Conducted comprehensive analysis of real-world problems to deliver practical,
+                            efficient, and creative AI solutions across diverse business domains. Managed end-to-end
+                            ML/DL projects of varying scales from initial research to production deployment. Leveraged
+                            extensive Generative AI expertise including LLM fine-tuning, prompt engineering, RAG
+                            systems, and agentic workflows to transform complex data challenges into scalable,
+                            high-value solutions with robust performance monitoring and continuous optimization.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">Deep Learning</span>
+                            <span class="project-tag">Agentic Workflows</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Nov 2021 - Apr 2022</div>
+                    <div class="timeline-content">
+                        <h3>Data Scientist</h3>
+                        <h4 style="color: var(--primary-color); margin-bottom: var(--space-2);">QisstPay-BNPL</h4>
+                        <p style="font-size: 0.9rem; margin-bottom: var(--space-4);"><i
+                                class="fas fa-map-marker-alt"></i> Islamabad, Pakistan</p>
+                        <p>
+                            Executed comprehensive data management initiatives by collecting, processing, and organizing
+                            both structured and unstructured data from diverse financial transaction sources into usable
+                            formats for advanced analytics. Enhanced data collection processes through automated
+                            pipeline development while building robust predictive models for payment behavior analysis
+                            and fraud detection. Performed sophisticated anomaly detection using machine learning
+                            techniques to identify irregular transaction patterns and system loops within payment
+                            processing workflows. Designed and developed interactive Power BI dashboards for real-time
+                            transaction monitoring and business intelligence reporting, while architecting scalable data
+                            pipelines and data warehouse solutions to support high-volume payment processing.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">FinTech</span>
+                            <span class="project-tag">Fraud Detection</span>
+                            <span class="project-tag">Power BI</span>
+                            <span class="project-tag">Predictive Modeling</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 4 -->
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Nov 2019 - Oct 2021</div>
+                    <div class="timeline-content">
+                        <h3>Research Data Scientist</h3>
+                        <h4 style="color: var(--primary-color); margin-bottom: var(--space-2);">Digital Disruption Lab,
+                            PIEAS</h4>
+                        <p style="font-size: 0.9rem; margin-bottom: var(--space-4);"><i
+                                class="fas fa-map-marker-alt"></i> Islamabad, Pakistan</p>
+                        <p>
+                            Conducted comprehensive research data collection and analysis using project-specific
+                            methodologies to process large-scale GPS datasets for transportation analytics. Transformed
+                            raw GPS data into meaningful trajectory patterns by leveraging action GPS points and
+                            implementing sophisticated data processing algorithms. Performed advanced geospatial
+                            visualization of trajectory data using QGIS and Folium libraries to identify movement
+                            patterns and spatial relationships. Applied map-matching tools and routing engines to
+                            correct trajectory data and ensure geographic accuracy for downstream analysis. Developed
+                            robust travel time prediction models using machine learning and deep learning techniques to
+                            forecast journey durations across various route segments. Collaborated with Higher Education
+                            Commission (HEC) project teams to advance congestion prediction research, contributing to
+                            national transportation infrastructure optimization initiatives through data-driven insights
+                            and predictive analytics.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Research</span>
+                            <span class="project-tag">GPS Mining</span>
+                            <span class="project-tag">Deep Learning</span>
+                            <span class="project-tag">QGIS</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Experience Item 5 -->
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jul 2017 - Nov 2019</div>
+                    <div class="timeline-content">
+                        <h3>Communication Quality Analyst</h3>
+                        <h4 style="color: var(--primary-color); margin-bottom: var(--space-2);">ACE Money Transfer, UK
+                        </h4>
+                        <p style="font-size: 0.9rem; margin-bottom: var(--space-4);"><i
+                                class="fas fa-map-marker-alt"></i> Liaison Office, Kharian, Punjab, Pakistan</p>
+                        <p>
+                            Conducted comprehensive audits of communication data and multiple data sources to ensure
+                            quality standards and compliance within the remittance services environment. Performed
+                            in-depth analysis of customer interaction data, call recordings, and service metrics to
+                            identify actionable insights for improving communication effectiveness and customer
+                            satisfaction. Presented analytical findings and strategic recommendations to higher
+                            management, delivering data-driven insights that supported decision-making processes and
+                            enhanced operational efficiency across customer service channels.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Data Analysis</span>
+                            <span class="project-tag">Quality Assurance</span>
+                            <span class="project-tag">Customer Service</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 6 -->
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Feb 2016 - Jun 2017</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4 style="color: var(--primary-color); margin-bottom: var(--space-2);">TechHive.pk</h4>
+                        <p style="font-size: 0.9rem; margin-bottom: var(--space-4);"><i
+                                class="fas fa-map-marker-alt"></i> Islamabad, Pakistan</p>
+                        <p>
+                            Designed, implemented, and managed responsive websites and web applications using modern
+                            development frameworks and technologies, ensuring optimal performance, scalability, and user
+                            experience across multiple platforms. Led front-end development initiatives utilizing HTML5,
+                            CSS3, JavaScript, and contemporary frameworks while collaborating effectively with creative
+                            team members including UI/UX designers, graphic designers, and product managers to deliver
+                            cohesive digital solutions. Managed the complete web development lifecycle from initial
+                            concept and wireframing through deployment and maintenance, ensuring adherence to best
+                            practices in web standards, accessibility guidelines, and cross-browser compatibility.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Web Development</span>
+                            <span class="project-tag">HTML/CSS/JS</span>
+                            <span class="project-tag">UI/UX</span>
+                            <span class="project-tag">Front-end</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-
-            <div class="timeline-item fade-in-up">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="timeline-period">November 2021 - April 2022</div>
-                    <h3 class="timeline-title">Data Scientist</h3>
-                    <h4 class="timeline-company">QisstPay-BNPL</h4>
-                    <span class="timeline__location">Islamabad, Pakistan</span>
-                    <p class="timeline-description" style="text-align: justify;">
-                        Executed comprehensive data management initiatives by collecting, processing, and organizing both structured and unstructured data from diverse financial transaction sources into usable formats for advanced analytics. Enhanced data collection processes through automated pipeline development while building robust predictive models for payment behavior analysis and fraud detection. Performed sophisticated anomaly detection using machine learning techniques to identify irregular transaction patterns and system loops within payment processing workflows. Designed and developed interactive Power BI dashboards for real-time transaction monitoring and business intelligence reporting, while architecting scalable data pipelines and data warehouse solutions to support high-volume payment processing.
-                    </p>
-                    <div class="timeline-tech">
-                        <span class="tech-tag">Data Science</span>
-                        <span class="tech-tag">Power BI</span>
-                        <span class="tech-tag">Predictive Modeling</span>
-                        <span class="tech-tag">Anomaly Detection</span>
-                        <span class="tech-tag">Credit Scoring</span>
-                        <span class="tech-tag">FinTech</span>
-                        <span class="tech-tag">Data Visualization</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item fade-in-up">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="timeline-period">November 2019 - October 2021</div>
-                    <h3 class="timeline-title">Research Data Scientist</h3>
-                    <h4 class="timeline-company">Digital Disruption Lab, PIEAS</h4>
-                    <span class="timeline__location">Islamabad, Pakistan</span>
-                    <p class="timeline-description" style="text-align: justify;">
-                        Conducted comprehensive research data collection and analysis using project-specific methodologies to process large-scale GPS datasets for transportation analytics. Transformed raw GPS data into meaningful trajectory patterns by leveraging action GPS points and implementing sophisticated data processing algorithms. Performed advanced geospatial visualization of trajectory data using QGIS and Folium libraries to identify movement patterns and spatial relationships. Applied map-matching tools and routing engines to correct trajectory data and ensure geographic accuracy for downstream analysis. Developed robust travel time prediction models using machine learning and deep learning techniques to forecast journey durations across various route segments. Collaborated with Higher Education Commission (HEC) project teams to advance congestion prediction research, contributing to national transportation infrastructure optimization initiatives through data-driven insights and predictive analytics.
-                    </p>
-                    <div class="timeline-tech">
-                        <span class="tech-tag">GPS Data Mining</span>
-                        <span class="tech-tag">QGIS</span>
-                        <span class="tech-tag">Machine Learning</span>
-                        <span class="tech-tag">Deep Learning</span>
-                        <span class="tech-tag">Research</span>
-                        <span class="tech-tag">GIS</span>
-                        <span class="tech-tag">Transportation Systems</span>
-                        <span class="tech-tag">Python</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item fade-in-up">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="timeline-period">July 2017 - November 2019</div>
-                    <h3 class="timeline-title">Communication Quality Analyst</h3>
-                    <h4 class="timeline-company">ACE Money Transfer, UK</h4>
-                    <span class="timeline__location">Laison Office, Pakistan</span>
-                    <p class="timeline-description" style="text-align: justify;">
-                        Conducted comprehensive audits of communication data and multiple data sources to ensure quality standards and compliance within the remittance services environment. Performed in-depth analysis of customer interaction data, call recordings, and service metrics to identify actionable insights for improving communication effectiveness and customer satisfaction. Presented analytical findings and strategic recommendations to higher management, delivering data-driven insights that supported decision-making processes and enhanced operational efficiency across customer service channels.
-                    </p>
-                    <div class="timeline-tech">
-                        <span class="tech-tag">Data Analysis</span>
-                        <span class="tech-tag">Sentiment Analysis</span>
-                        <span class="tech-tag">Quality Assurance</span>
-                        <span class="tech-tag">Financial Data</span>
-                        <span class="tech-tag">Business Intelligence</span>
-                        <span class="tech-tag">Reporting</span>
-                        <span class="tech-tag">Data Auditing</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item fade-in-up">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="timeline-period">February 2016 - June 2017</div>
-                    <h3 class="timeline-title">Software Engineer</h3>
-                    <h4 class="timeline-company">TechHive.pk</h4>
-                    <span class="timeline__location">Lahore, Pakistan</span>
-                    <p class="timeline-description" style="text-align: justify;">
-                        Designed, implemented, and managed responsive websites and web applications using modern development frameworks and technologies, ensuring optimal performance, scalability, and user experience across multiple platforms. Led front-end development initiatives utilizing HTML5, CSS3, JavaScript, and contemporary frameworks while collaborating effectively with creative team members including UI/UX designers, graphic designers, and product managers to deliver cohesive digital solutions. Managed the complete web development lifecycle from initial concept and wireframing through deployment and maintenance, ensuring adherence to best practices in web standards, accessibility guidelines, and cross-browser compatibility while maintaining seamless integration between design vision and technical implementation.
-                    </p>
-                    <div class="timeline-tech">
-                        <span class="tech-tag">Web Development</span>
-                        <span class="tech-tag">Front-end Development</span>
-                        <span class="tech-tag">HTML/CSS</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">Technical Documentation</span>
-                        <span class="tech-tag">UI/UX</span>
-                        <span class="tech-tag">Responsive Design</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- <div class="timeline-item fade-in-up">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="timeline-period">2019 - 2023</div>
-                    <h3 class="timeline-title">Data Scientist / ML Engineer</h3>
-                    <h4 class="timeline-company">Multiple Industries</h4>
-                    <span class="timeline__location">Various Locations</span>
-                    <p class="timeline-description" style="text-align: justify;">
-                        Worked on data analytics and machine learning projects across diverse industry sectors including Telecoms, Finance, Government, Manufacturing, Healthcare, FinTech, Supply Chain, Transportation, and Remittance. Delivered comprehensive data solutions, developed predictive models, and implemented AI-driven automation across various business domains.
-                    </p>
-                    <div class="timeline-tech">
-                        <span class="tech-tag">Data Analytics</span>
-                        <span class="tech-tag">Machine Learning</span>
-                        <span class="tech-tag">Statistical Analysis</span>
-                        <span class="tech-tag">Business Intelligence</span>
-                        <span class="tech-tag">Cloud Computing</span>
-                        <span class="tech-tag">Cross-Industry Solutions</span>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </div>
-</section>
-
+    </section>
 
     <!-- Skills Section -->
-    <section class="skills section-padding" id="skills">
+    <section id="skills" class="section-padding">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Technical Skills</h2>
-                <p class="section-subtitle">Comprehensive skill set spanning AI, Cloud, and Development</p>
+            <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
+                <h2>Skills & Hobbies</h2>
+                <p>Comprehensive skill set spanning AI, Cloud, Development & Hobbies</p>
             </div>
+
             <div class="skills-grid">
+                <!-- ML & AI -->
                 <div class="skill-category fade-in-up">
-                    <div class="category-title">
-                        <i class="fas fa-brain"></i>
-                        <span>Machine Learning & AI</span>
-                    </div>
+                    <h3><i class="fas fa-brain"></i> Machine Learning & AI</h3>
                     <div class="skill-list">
-                        <div class="skill-item">
-                            <span class="skill-name">Machine Learning</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="95"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Machine Learning</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 95%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Deep Learning</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="90"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Deep Learning</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 90%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Natural Language Processing</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="92"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>NLP</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 92%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Computer Vision</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="75"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Generative & Agentic AI</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 85%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Generative AI</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">MLOps</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="70"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>AIOps & Governance</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 85%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- Cloud -->
                 <div class="skill-category fade-in-up">
-                    <div class="category-title">
-                        <i class="fas fa-cloud"></i>
-                        <span>Cloud & Data Platforms</span>
-                    </div>
+                    <h3><i class="fas fa-cloud"></i> Cloud & Data</h3>
                     <div class="skill-list">
-                        <div class="skill-item">
-                            <span class="skill-name">Microsoft Azure</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="90"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Microsoft Azure</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 90%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Google Cloud</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="80"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Google Cloud</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 80%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">AWS Cloud</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="68"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>AWS Cloud</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 72%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Microsoft Power BI</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="65"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Databricks</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 78%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Snowflakes</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="74"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Databricks</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="78"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Snowflake</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 68%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- Programming -->
                 <div class="skill-category fade-in-up">
-                    <div class="category-title">
-                        <i class="fas fa-code"></i>
-                        <span>Programming & Development</span>
-                    </div>
+                    <h3><i class="fas fa-code"></i> Programming</h3>
                     <div class="skill-list">
-                        <div class="skill-item">
-                            <span class="skill-name">Python</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="95"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Python</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 95%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">SQL</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="90"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>SQL</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 90%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">LangChain/LangSmith</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="70"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>VectorDB</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 65%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">RAGs</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="70"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>TensorFlow & PyTorch</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 75%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Vector Databases</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="75"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Graph Databases</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="68"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category fade-in-up">
-                    <div class="category-title">
-                        <i class="fas fa-cogs"></i>
-                        <span>Functional Skills</span>
-                    </div>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <span class="skill-name">Leadership & Innovation</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="88"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Analytical Skills</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Team Collaboration</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="92"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Project Management</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="85"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>LangChain</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 70%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="skill-category fade-in-up">
-                    <div class="category-title">
-                        <i class="fas fa-language"></i>
-                        <span>Language Skills</span>
-                    </div>
+                    <h3><i class="fas fa-cogs"></i> Functional Skills</h3>
                     <div class="skill-list">
-                        <div class="skill-item">
-                            <span class="skill-name">Punjabi (Native)</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="95"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Leadership & Innovation</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 80%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Urdu</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="90"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Problem Solving</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 85%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">English</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="85"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Communication</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 88%"></div>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <span class="skill-name">French</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="50"></div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Teamwork</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Time Management</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 80%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <div class="skill-category fade-in-up">
+                    <h3><i class="fas fa-language"></i> Language Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>English</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>French</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 55%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>German</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 30%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>اُردو </span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>پنجابی(ماں بولی)</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category fade-in-up">
+                    <h3><i class="fas fa-headset"></i> Hobbies</h3>
+                    <div class="skill-list">
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Cricket</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Video Games</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 55%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Tech-Gadgets</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Social Media</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info"><span>Reading</span><span></span></div>
+                            <div class="skill-track">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-   <!-- Certifications Section -->
-<section class="certifications section-padding" id="certifications">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">Professional Certifications</h2>
-            <p class="section-subtitle">Industry-recognized expertise and continuous learning</p>
-        </div>
-        <div class="certifications-grid">
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fab fa-google"></i>
-                </div>
-                <h3><a href="https://www.credly.com/badges/317f1b2d-572c-49f4-ba26-ffcb71a6449f/linked_in_profile" target="_blank" rel="noopener noreferrer">Associate Cloud Engineer</a></h3>
-                <p>Google Cloud Platform</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Certified</span>
-                </div>
-                <div class="cert-description">
-                    Professional certification in designing, building, and managing Google Cloud infrastructure and services.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://www.credly.com/badges/317f1b2d-572c-49f4-ba26-ffcb71a6449f/linked_in_profile" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
-                    </a>
-                </div>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section-padding">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
+                <h2>Professional Certifications</h2>
+                <p>Industry-recognized expertise and continuous learning</p>
             </div>
 
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fab fa-microsoft"></i>
-                </div>
-                <h3><a href="https://learn.microsoft.com/en-us/users/muhammadawaisamin-9735/credentials/99f655076dd0bbf?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener noreferrer">Azure Data Scientist Associate</a></h3>
-                <p>Microsoft Azure</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Certified</span>
-                </div>
-                <div class="cert-description">
-                    Advanced certification in implementing and running machine learning workloads on Azure platform.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://learn.microsoft.com/en-us/users/muhammadawaisamin-9735/credentials/99f655076dd0bbf?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
+            <div class="certifications-grid">
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="custom-icon icon-databricks"></i></div>
+                    <h3>Associate Generative AI Engineer</h3>
+                    <p class="cert-issuer">Databricks</p>
+                    <a href="https://credentials.databricks.com/99a9c02f-11de-4131-9ec3-f8af5d21953f#acc.bDmdnJC1"
+                        target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
-            </div>
-
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fab fa-microsoft"></i>
-                </div>
-                <h3><a href="https://learn.microsoft.com/en-us/users/muhammadawaisamin-9735/credentials/9e7efd25352f95fa?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener noreferrer">Azure AI Engineer Associate</a></h3>
-                <p>Microsoft Azure</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Certified</span>
-                </div>
-                <div class="cert-description">
-                    Professional certification in designing and implementing AI solutions using Azure Cognitive Services and Machine Learning.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://learn.microsoft.com/en-us/users/muhammadawaisamin-9735/credentials/9e7efd25352f95fa?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="custom-icon icon-gcp"></i></div>
+                    <h3>Associate Cloud Engineer</h3>
+                    <p class="cert-issuer">Google Cloud Platform</p>
+                    <a href="https://www.credly.com/badges/317f1b2d-572c-49f4-ba26-ffcb71a6449f/linked_in_profile"
+                        target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
-            </div>
 
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fab fa-microsoft"></i>
-                </div>
-                <h3><a href="https://www.credly.com/badges/35630bd5-1b8c-436e-b686-4ce052b64eed/linked_in_profile" target="_blank" rel="noopener noreferrer">Azure AI Fundamentals</a></h3>
-                <p>Microsoft Azure</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Certified</span>
-                </div>
-                <div class="cert-description">
-                    Foundation-level certification demonstrating knowledge of AI workloads and Azure AI services.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://www.credly.com/badges/35630bd5-1b8c-436e-b686-4ce052b64eed/linked_in_profile" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="fab fa-microsoft"></i></div>
+                    <h3>Azure Data Scientist Associate</h3>
+                    <p class="cert-issuer">Microsoft Azure</p>
+                    <a href="https://learn.microsoft.com/en-us/users/muhammadawaisamin-9735/credentials/99f655076dd0bbf?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                        target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
-            </div>
 
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fab fa-microsoft"></i>
-                </div>
-                <h3><a href="https://www.credly.com/badges/78e84ca5-6850-4cf0-8dec-3ff1b30af894/linked_in_profile" target="_blank" rel="noopener noreferrer">Azure Data Fundamentals</a></h3>
-                <p>Microsoft Azure</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Certified</span>
-                </div>
-                <div class="cert-description">
-                    Foundational certification covering core data concepts and Azure data services.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://www.credly.com/badges/78e84ca5-6850-4cf0-8dec-3ff1b30af894/linked_in_profile" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="fab fa-microsoft"></i></div>
+                    <h3>Azure AI Engineer Associate</h3>
+                    <p class="cert-issuer">Microsoft Azure</p>
+                    <a href="https://learn.microsoft.com/en-us/users/muhammadawaisamin-9735/credentials/9e7efd25352f95fa?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                        target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
-            </div>
 
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fas fa-cloud"></i>
-                </div>
-                <h3><a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=21BCFE8461E0A95246F9B0C576BBEA78FBA161F81A9A40AB4190BF600B49DCAD" target="_blank" rel="noopener noreferrer">Oracle Cloud Infrastructure 2024 Generative AI Certified Professional</a></h3>
-                <p>Oracle Cloud</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>2024</span>
-                </div>
-                <div class="cert-description">
-                    Professional-level certification in designing and implementing generative AI solutions on Oracle Cloud Infrastructure.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=21BCFE8461E0A95246F9B0C576BBEA78FBA161F81A9A40AB4190BF600B49DCAD" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="fab fa-microsoft"></i></div>
+                    <h3>Azure AI Fundamentals</h3>
+                    <p class="cert-issuer">Microsoft Azure</p>
+                    <a href="https://www.credly.com/badges/35630bd5-1b8c-436e-b686-4ce052b64eed/linked_in_profile"
+                        target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
-            </div>
 
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fas fa-cloud"></i>
-                </div>
-                <h3><a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=628DF196591C89E3B3F234FC6F8B810B3895B1924DD9985F408EDAF165C9B6F4" target="_blank" rel="noopener noreferrer">Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate</a></h3>
-                <p>Oracle Cloud</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>2023</span>
-                </div>
-                <div class="cert-description">
-                    Foundational certification demonstrating understanding of AI services and capabilities in Oracle Cloud Infrastructure.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=628DF196591C89E3B3F234FC6F8B810B3895B1924DD9985F408EDAF165C9B6F4" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="fab fa-microsoft"></i></div>
+                    <h3>Azure Data Fundamentals</h3>
+                    <p class="cert-issuer">Microsoft Azure</p>
+                    <a href="https://www.credly.com/badges/78e84ca5-6850-4cf0-8dec-3ff1b30af894/linked_in_profile"
+                        target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
-            </div>
 
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fas fa-network-wired"></i>
-                </div>
-                <h3><a href="https://www.credly.com/badges/e427c35f-8d42-4174-89c5-b9d92003c01a?source=linked_in_profile" target="_blank" rel="noopener noreferrer">TigerGraph Associate</a></h3>
-                <p>TigerGraph Certified</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Certified</span>
-                </div>
-                <div class="cert-description">
-                    Professional certification in graph database concepts, TigerGraph architecture, and graph analytics.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://www.credly.com/badges/e427c35f-8d42-4174-89c5-b9d92003c01a?source=linked_in_profile" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="fas fa-cloud"></i></div>
+                    <h3>OCI 2024 Generative AI Professional</h3>
+                    <p class="cert-issuer">Oracle Cloud</p>
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=21BCFE8461E0A95246F9B0C576BBEA78FBA161F81A9A40AB4190BF600B49DCAD"
+                        target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
-            </div>
 
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fas fa-network-wired"></i>
-                </div>
-                <h3><a href="https://www.credly.com/badges/33449626-106f-4595-9c03-949a91a1e840/linked_in_profile" target="_blank" rel="noopener noreferrer">Graph Algorithms for Machine Learning</a></h3>
-                <p>TigerGraph</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Certified</span>
-                </div>
-                <div class="cert-description">
-                    Specialized certification in applying graph algorithms and machine learning techniques for data analysis and insights.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://www.credly.com/badges/33449626-106f-4595-9c03-949a91a1e840/linked_in_profile" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="fas fa-cloud"></i></div>
+                    <h3>OCI 2023 AI Certified Foundations Associate</h3>
+                    <p class="cert-issuer">Oracle Cloud</p>
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=628DF196591C89E3B3F234FC6F8B810B3895B1924DD9985F408EDAF165C9B6F4"
+                        target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
-            </div>
 
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fas fa-cogs"></i>
-                </div>
-                <h3><a href="https://openbadgepassport.com/app/badge/info/455148" target="_blank" rel="noopener noreferrer">Machine Learning Professional</a></h3>
-                <p>RapidMiner</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Certified</span>
-                </div>
-                <div class="cert-description">
-                    Professional certification in advanced machine learning techniques, model development, and deployment using RapidMiner platform.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://openbadgepassport.com/app/badge/info/455148" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>TigerGraph Associate</h3>
+                    <p class="cert-issuer">TigerGraph</p>
+                    <a href="https://www.credly.com/badges/e427c35f-8d42-4174-89c5-b9d92003c01a?source=linked_in_profile"
+                        target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
-            </div>
 
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fas fa-cogs"></i>
-                </div>
-                <h3><a href="https://openbadgepassport.com/app/badge/info/455146" target="_blank" rel="noopener noreferrer">Data Engineering Professional</a></h3>
-                <p>RapidMiner</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Certified</span>
-                </div>
-                <div class="cert-description">
-                    Professional certification in data engineering practices, ETL processes, and data pipeline development.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://openbadgepassport.com/app/badge/info/455146" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Graph Algorithms for Machine Learning</h3>
+                    <p class="cert-issuer">TigerGraph</p>
+                    <a href="https://www.credly.com/badges/33449626-106f-4595-9c03-949a91a1e840/linked_in_profile"
+                        target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
-            </div>
 
-            <div class="cert-card fade-in-up">
-                <div class="cert-icon">
-                    <i class="fas fa-cogs"></i>
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="custom-icon icon-rapidminer"></i></div>
+                    <h3>Machine Learning Professional</h3>
+                    <p class="cert-issuer">RapidMiner</p>
+                    <a href="https://openbadgepassport.com/app/badge/info/455148" target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
+                    </a>
                 </div>
-                <h3><a href="https://openbadgepassport.com/app/badge/info/455143" target="_blank" rel="noopener noreferrer">Applications Use Cases Professional</a></h3>
-                <p>RapidMiner</p>
-                <div class="cert-badge">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Certified</span>
+
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="custom-icon icon-rapidminer"></i></div>
+                    <h3>Data Engineering Professional</h3>
+                    <p class="cert-issuer">RapidMiner</p>
+                    <a href="https://openbadgepassport.com/app/badge/info/455146" target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
+                    </a>
                 </div>
-                <div class="cert-description">
-                    Professional certification in practical applications of data science and machine learning across various business use cases.
-                </div>
-                <div class="cert-verify">
-                    <a href="https://openbadgepassport.com/app/badge/info/455143" target="_blank" rel="noopener noreferrer" class="verify-link">
-                        <i class="fas fa-external-link-alt"></i> Verify Certification
+
+                <div class="cert-card fade-in-up">
+                    <div class="cert-icon"><i class="custom-icon icon-rapidminer"></i></div>
+                    <h3>Applications Use Cases Professional</h3>
+                    <p class="cert-issuer">RapidMiner</p>
+                    <a href="https://openbadgepassport.com/app/badge/info/455143" target="_blank" class="cert-link">
+                        Verify <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
             </div>
         </div>
-
-        <div class="tech-logos">
-            <div class="logo-container">
-                <i class="fab fa-google" style="font-size: 60px; color: #4285F4;"></i>
-            </div>
-            <div class="logo-container">
-                <i class="fab fa-microsoft" style="font-size: 60px; color: #00BCF2;"></i>
-            </div>
-            <div class="logo-container">
-                <i class="fas fa-cloud" style="font-size: 60px; color: #F80000;"></i>
-            </div>
-            <div class="logo-container">
-                <i class="fas fa-network-wired" style="font-size: 60px; color: #FF6B35;"></i>
-            </div>
-            <div class="logo-container">
-                <i class="fas fa-cogs" style="font-size: 60px; color: #1F77B4;"></i>
-            </div>
-            <div class="logo-container">
-                <i class="fas fa-brain" style="font-size: 60px; color: #FF6B6B;"></i>
-            </div>
-        </div>
-    </div>
-</section>
-
+    </section>
 
     <!-- Projects Section -->
-<section class="projects section-padding" id="projects">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">Featured Projects</h2>
-            <p class="section-subtitle">Innovative solutions that drive business impact</p>
-        </div>
-        <div class="projects-grid">
-            <div class="project-card fade-in-up">
-                <div class="project-header">
-                    <h3>AI Video Analyzer</h3>
-                    <div class="project-icon">
-                        <i class="fas fa-video"></i>
-                    </div>
-                    
-                </div>
-                <p class="project-description">
-                    Developed end-to-end workflow for enterprise video content analysis combining image captioning (BLIP/LLaVA), audio transcription (Whisper), and RAG-based conversational access. Implemented semantic chunking and timestamp-based navigation, reducing video review time by 80%.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">LLaVA-1.5</span>
-                    <span class="tech-tag">BLIP-2</span>
-                    <span class="tech-tag">Whisper</span>
-                    <span class="tech-tag">Pinecone</span>
-                    <span class="tech-tag">GPT-4o</span>
-                    <span class="tech-tag">LangChain</span>
-                </div>
-                <div class="project-impact">
-                    <div class="impact-metric">80% Time Reduction</div>
-                    <div class="impact-metric ongoing">On-Going</div>
-                </div>
-            </div>
-
-            <div class="project-card fade-in-up">
-                <div class="project-header">
-                    <h3>LLM-Driven Call Agent</h3>
-                    <div class="project-icon">
-                        <i class="fas fa-headset"></i>
-                    </div>
-                </div>
-                <p class="project-description">
-                    Built real-time streaming pipeline for intelligent call center automation with knowledge base preparation, agent assist modes, and autonomous handling capabilities.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">Twilio</span>
-                    <span class="tech-tag">Eleven Labs API</span>
-                    <span class="tech-tag">Vector DB</span>
-                    <span class="tech-tag">Intent Classification</span>
-                    <span class="tech-tag">Sentiment Analysis</span>
-                    <span class="tech-tag">LLM Integration</span>
-                </div>
-                <div class="project-impact">
-                    <div class="impact-metric">Real-time Automation</div>
-                    <div class="impact-metric ongoing">On-Going</div>
-                </div>
-            </div>
-
-            <div class="project-card fade-in-up">
-                <div class="project-header">
-                    <h3>GenAI Enterprise Policy Chatbot</h3>
-                    <div class="project-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                </div>
-                <p class="project-description">
-                    Implemented RAG-based enterprise knowledge chatbot with fine-grained permissions and policy document ingestion (200+ docs). Achieved 30-50% reduction in HR/help-desk tickets and saved 5-7 minutes per employee query.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">LangChain</span>
-                    <span class="tech-tag">pgvector</span>
-                    <span class="tech-tag">GPT-4</span>
-                    <span class="tech-tag">Open Policy Agent</span>
-                    <span class="tech-tag">Postgres RLS</span>
-                    <span class="tech-tag">ACL Implementation</span>
-                </div>
-                <div class="project-impact">
-                    <div class="impact-metric">50% Ticket Reduction</div>
-                </div>
-            </div>
-
-            <div class="project-card fade-in-up">
-                <div class="project-header">
-                    <h3>Chronic Myeloid Leukemia Prediction Dashboard</h3>
-                    <div class="project-icon">
-                        <i class="fas fa-heartbeat"></i>
-                    </div>
-                </div>
-                <p class="project-description">
-                    Designed ML dashboard for CML prediction using protein sequences from key genes (BCL2, HSP90, PARP, RB). Implemented feature extraction techniques achieving 66-94% accuracy rates with user-friendly Streamlit interface.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">SVM</span>
-                    <span class="tech-tag">XGBoost</span>
-                    <span class="tech-tag">Random Forest</span>
-                    <span class="tech-tag">Protein Analysis</span>
-                    <span class="tech-tag">Streamlit</span>
-                    <span class="tech-tag">Bioinformatics</span>
-                </div>
-                <div class="project-impact">
-                    <div class="impact-metric">94% Accuracy Rate</div>
-                </div>
-            </div>
-
-            <div class="project-card fade-in-up">
-                <div class="project-header">
-                    <h3>ETL for Financial and Taxation Data</h3>
-                    <div class="project-icon">
-                        <i class="fas fa-database"></i>
-                    </div>
-                </div>
-                <p class="project-description">
-                    Developed algorithm for fuzzy matching in data, performed fuzzy matching with different data sources, created views and materialized views, and developed LangChain solution for LLM queries from major tables for Ministry of Budget, Côte d'Ivoire.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">SQL</span>
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">LangChain</span>
-                    <span class="tech-tag">ETL Tools</span>
-                    <span class="tech-tag">Data Warehousing</span>
-                    <span class="tech-tag">Fuzzy Matching</span>
-                </div>
-                <div class="project-impact">
-                    <div class="impact-metric">Government Scale</div>
-                </div>
-            </div>
-
-            <div class="project-card fade-in-up">
-                <div class="project-header">
-                    <h3>Adaptive Image Restoration for Video Surveillance</h3>
-                    <div class="project-icon">
-                        <i class="fas fa-camera"></i>
-                    </div>
-                </div>
-                <p class="project-description">
-                    Real-time image restoration solution for video surveillance using transfer learning with ResNet50 to identify image degradation types and apply appropriate restoration models. Published research with practical surveillance applications.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">ResNet50</span>
-                    <span class="tech-tag">Transfer Learning</span>
-                    <span class="tech-tag">Computer Vision</span>
-                    <span class="tech-tag">Real-time Processing</span>
-                    <span class="tech-tag">Image Restoration</span>
-                </div>
-                <div class="project-impact">
-                    <div class="impact-metric">Real-time Processing</div>
-                </div>
-            </div>
-
-            <div class="project-card fade-in-up">
-                <div class="project-header">
-                    <h3>Real-Time Incident Detection System</h3>
-                    <div class="project-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </div>
-                </div>
-                <p class="project-description">
-                    Led development of real-time incident detection system using YOLOv8, built custom dataset of labeled images, and achieved 87% accuracy in detecting incidents in video streams for ESATIC SAH International.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">YOLOv8</span>
-                    <span class="tech-tag">Computer Vision</span>
-                    <span class="tech-tag">Custom Dataset</span>
-                    <span class="tech-tag">Real-time Processing</span>
-                    <span class="tech-tag">Object Detection</span>
-                </div>
-                <div class="project-impact">
-                    <div class="impact-metric">87% Accuracy</div>
-                </div>
-            </div>
-
-            <div class="project-card fade-in-up">
-                <div class="project-header">
-                    <h3>Digital Credit Scoring System</h3>
-                    <div class="project-icon">
-                        <i class="fas fa-credit-card"></i>
-                    </div>
-                </div>
-                <p class="project-description">
-                    Built POC for credit scoring using digital footprints, designed data collection model, integrated third-party APIs, and collected 300+ data points using SEON and Credolab for QisstPay-BNPL.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">Digital Footprint Analysis</span>
-                    <span class="tech-tag">SEON</span>
-                    <span class="tech-tag">Credolab</span>
-                    <span class="tech-tag">API Integration</span>
-                    <span class="tech-tag">Credit Scoring</span>
-                    <span class="tech-tag">FinTech</span>
-                </div>
-                <div class="project-impact">
-                    <div class="impact-metric">300+ Data Points</div>
-                </div>
-            </div>
-
-            <div class="project-card fade-in-up">
-                <div class="project-header">
-                    <h3>Trajectory Data Mining and Travel Time Prediction</h3>
-                    <div class="project-icon">
-                        <i class="fas fa-route"></i>
-                    </div>
-                </div>
-                <p class="project-description">
-                    Comprehensive research project involving GPS trajectory mining, map-matching with OSRM, and ML/DL models (ANN, MLP, LSTM) for travel time prediction. Published IEEE conference paper with 30 seconds to 1.2 minutes accuracy on 10-60 minute trips.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">GPS Data Mining</span>
-                    <span class="tech-tag">LSTM</span>
-                    <span class="tech-tag">QGIS</span>
-                    <span class="tech-tag">OSRM</span>
-                    <span class="tech-tag">Deep Learning</span>
-                    <span class="tech-tag">Transportation Systems</span>
-                </div>
-                <div class="project-impact">
-                    <div class="impact-metric">IEEE Published</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-   <!-- Publications Section -->
-<section class="publications section-padding" id="publications">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">Research Publications</h2>
-            <p class="section-subtitle">Contributing to the advancement of AI and machine learning research</p>
-        </div>
-        <div class="publications-list">
-            <div class="publication-item fade-in-up">
-                <div class="publication-header">
-                    <h3>Machine Learning Driven Dashboard for Chronic Myeloid Leukemia Prediction using Protein Sequences</h3>
-                    <div class="publication-year">2025</div>
-                </div>
-                <div class="publication-details">
-                    <p class="publication-authors">Waqar Ahmad, Abdul Raheem Shahzad, Muhammad Awais Amin, Waqas Haider Bangyal, Tahani Jaser Alahmadi, Saddam Hussain Khan</p>
-                    <p class="publication-venue"><strong>PLOS One</strong>, Vol. 20, No. 6</p>
-                    <div class="publication-metrics">
-                        <span class="metric">
-                            <i class="fas fa-external-link-alt"></i>
-                            <a href="https://doi.org/10.1371/journal.pone.0321761" target="_blank" rel="noopener noreferrer">https://doi.org/10.1371/journal.pone.0321761</a>
-                        </span>
-                        <span class="metric"><i class="fas fa-microscope"></i> Peer Reviewed</span>
-                    </div>
-                    <p class="publication-abstract">
-                        Developed ML dashboard for CML prediction using protein sequences from key genes (BCL2, HSP90, PARP, RB). Implemented feature extraction techniques achieving 66-94% accuracy rates with user-friendly Streamlit interface for early detection of chronic myeloid leukemia.
-                    </p>
-                </div>
-            </div>
-
-            <div class="publication-item fade-in-up">
-                <div class="publication-header">
-                    <h3>Adaptive Image Restoration for Video Surveillance: A Real-Time Approach</h3>
-                    <div class="publication-year">2025</div>
-                </div>
-                <div class="publication-details">
-                    <p class="publication-authors">Muhammad Awais Amin, Adama Ilboudo, Abdul Samad bin Shahid, Amjad Ali, Waqas Haider Khan Bangyal</p>
-                    <p class="publication-venue"><strong>Annual Methodological Archive Research Review</strong>, Vol. 3, No. 5, pp. 296-321</p>
-                    <div class="publication-metrics">
-                        <span class="metric">
-                            <i class="fas fa-external-link-alt"></i> 
-                            <a href="https://doi.org/10.63075/2jepm102" target="_blank" rel="noopener noreferrer">DOI: 10.63075/2jepm102</a>
-                        </span>
-                        <span class="metric"><i class="fas fa-camera"></i> Computer Vision</span>
-                    </div>
-                    <p class="publication-abstract">
-                        Real-time image restoration solution for video surveillance using transfer learning with ResNet50 to identify image degradation types and apply appropriate restoration models. Achieved 97% accuracy in degradation classification with flexible and scalable architecture.
-                    </p>
-                </div>
-            </div>
-
-            <div class="publication-item fade-in-up">
-                <div class="publication-header">
-                    <h3>Trajectory Data Mining and Trip Travel Time Prediction on Specific Roads</h3>
-                    <div class="publication-year">2024</div>
-                </div>
-                <div class="publication-details">
-                    <p class="publication-authors">Muhammad Awais Amin, Jawad-Ur-Rehman Chughtai, Waqar Ahmad, Waqas Haider Bangyal, Irfan Ul Haq</p>
-                    <p class="publication-venue"><strong>IEEE 2024 International Conference on Engineering Computing Technologies (ICECT)</strong></p>
-                    <div class="publication-metrics">
-                        <span class="metric">
-                            <i class="fas fa-external-link-alt"></i> 
-                            <a href="https://doi.org/10.1109/ICECT61618.2024.10581284" target="_blank" rel="noopener noreferrer">DOI: 10.1109/ICECT61618.2024.10581284</a>
-                        </span>
-                        <span class="metric">
-                            <i class="fas fa-file-pdf"></i> 
-                            <a href="https://arxiv.org/abs/2407.07030" target="_blank" rel="noopener noreferrer">arXiv:2407.07030</a>
-                        </span>
-                    </div>
-                    <p class="publication-abstract">
-                        Comprehensive pipeline for mining GPS trajectory data and applying ANN, MLP, and LSTM models to predict trip travel times on frequent routes in Islamabad, Pakistan. Achieved prediction accuracy within 30 seconds to 1.2 minutes for trips lasting 10-60 minutes.
-                    </p>
-                </div>
-            </div>
-
-            <div class="publication-item fade-in-up">
-    <div class="publication-header">
-        <h3>Systematic Literature Review on Swarms of UAVs</h3>
-        <div class="publication-year">2024</div>
-    </div>
-    <div class="publication-details">
-        <p class="publication-authors">Amjad Ali, Muhammad Nafees, Muhammad Awais Amin, Inam Ur Rehman, Muhammad Tayyab, Waqar Ahmad</p>
-        <p class="publication-venue"><strong>Spectrum of Engineering Sciences</strong>, Vol. 2, No. 4, pp. 386-415</p>
-        <div class="publication-metrics">
-            <span class="metric">
-                <i class="fas fa-external-link-alt"></i> 
-                <a href="https://sesjournal.com/index.php/1/article/view/83" target="_blank" rel="noopener noreferrer">Article Link</a>
-            </span>
-            <span class="metric">
-                <i class="fas fa-file-pdf"></i> 
-                <a href="https://sesjournal.com/index.php/1/article/view/83/83" target="_blank" rel="noopener noreferrer">Direct PDF</a>
-            </span>
-            <span class="metric"><i class="fas fa-book"></i> Journal Article</span>
-        </div>
-        <p class="publication-abstract">
-            Comprehensive systematic literature review of UAV swarm technologies covering coordination algorithms, communication protocols, applications in disaster management and firefighting operations, challenges, and future research directions in swarm UAV systems.
-        </p>
-    </div>
-</div>
-
-        </div>
-
-        <div class="research-links">
-            <a href="https://scholar.google.com/citations?user=RpfNoFwAAAAJ&hl=en" class="btn btn--outline" target="_blank">
-                <i class="fab fa-google"></i> Google Scholar Profile
-            </a>
-            <a href="https://orcid.org/0009-0001-4445-7606" class="btn btn--outline" target="_blank">
-                <i class="fab fa-orcid"></i> ORCID Profile
-            </a>
-        </div>
-    </div>
-</section>
-    <!-- Contact Section -->
-    <section class="contact section-padding" id="contact">
+    <section id="projects" class="section-padding">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Ready to discuss your next AI/ML project?</p>
+            <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
+                <h2>Featured Projects</h2>
+                <p>Innovative solutions that drive business impact</p>
             </div>
-            <div class="contact-content">
+
+            <div class="projects-grid">
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-comments" style="color: var(--primary-color);"></i> S360 Intelligent
+                            Database
+                            Chatbot</h3>
+                        <p>Designed and implemented a production-ready FastAPI backend to enable natural language
+                            querying of the S360 database. Integrated Semantic Search with Qdrant and an LLM engine to
+                            deliver context-aware responses, ensuring strict data governance with a secure local
+                            deployment architecture.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">FastAPI</span>
+                            <span class="project-tag">Qdrant</span>
+                            <span class="project-tag">LangChain</span>
+                            <span class="project-tag">LLMtoSQL</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> MVP Stage
+                            </div>
+                            <div class="badge-glow">
+                                InProgress
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-shield-halved" style="color: var(--primary-color);"></i> AI Governance &
+                            Observability Framework</h3>
+                        <p>Conducted a comprehensive implementation and comparative analysis of enterprise MLOps
+                            platforms (IBM watsonx, Airia, MLflow, Pulsar.ML). Deployed real-time monitoring pipelines
+                            for YOLOv11 and RAG applications, establishing benchmarks for data drift detection, model
+                            security, and operational observability.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">IBM watsonx</span>
+                            <span class="project-tag">Airia</span>
+                            <span class="project-tag">MLflow</span>
+                            <span class="project-tag">Pulsar.ML</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> Implemented real-time drift detection &
+                                observability pipelines
+                            </div>
+                            <!-- <div class="badge-glow">
+                                InProgress
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-user-magnifying-glass" style="color: var(--primary-color);"></i> RAG-Based
+                            Talent Acquisition Assistant</h3>
+                        <p>Developed a Retrieval-Augmented Generation (RAG) application to automate resume screening.
+                            The system utilizes Vector Search (FAISS) to match candidate profiles against job
+                            descriptions, generating evidence-based summaries and tailored interview questions to
+                            streamline the recruitment lifecycle.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">FAISS</span>
+                            <span class="project-tag">LangChain</span>
+                            <span class="project-tag">FastAPI</span>
+                            <span class="project-tag">ReactJS</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> Automated screening with evidence-backed candidate
+                                summaries
+                            </div>
+                            <!-- <div class="badge-glow">
+                                MVP-Stage
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-video" style="color: var(--primary-color);"></i> AI Video Analyzer</h3>
+                        <p>Developed end-to-end workflow for enterprise video content analysis combining image
+                            captioning (BLIP/LLaVA), audio transcription (Whisper), and RAG-based conversational access.
+                            Implemented semantic chunking and timestamp-based navigation, reducing video review time by
+                            80%.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">LLaVA</span>
+                            <span class="project-tag">Whisper</span>
+                            <span class="project-tag">LangChain</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> 80% Time Reduction, find the key points and summary
+                                of the video and capability to navigate through the video
+                            </div>
+                            <!-- <div class="badge-glow">
+                                InProgress
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-headset" style="color: var(--primary-color);"></i> LLM-Driven Call Agent
+                        </h3>
+                        <p>Built real-time streaming pipeline for intelligent call center automation with knowledge base
+                            preparation, agent assist modes, and autonomous handling capabilities.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Twilio</span>
+                            <span class="project-tag">Eleven Labs</span>
+                            <span class="project-tag">Vector DB</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> Real-time Automation, Demonstration of Future of
+                                Customer Support
+                            </div>
+                            <!-- <div class="badge-glow">
+                                InProgress
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-robot" style="color: var(--primary-color);"></i> GenAI Enterprise Policy
+                            Chatbot</h3>
+                        <p>Implemented RAG-based enterprise knowledge chatbot with fine-grained permissions and policy
+                            document ingestion (200+ docs). Achieved 30-50% reduction in HR/help-desk tickets and saved
+                            5-7 minutes per employee query.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">RAG</span>
+                            <span class="project-tag">GPT-4</span>
+                            <span class="project-tag">Postgres</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> 50% Ticket Reduction, 5-7 minutes per employee query
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-heartbeat" style="color: var(--primary-color);"></i> CML Prediction
+                            Dashboard</h3>
+                        <p>Designed ML dashboard for CML prediction using protein sequences from key genes (BCL2, HSP90,
+                            PARP, RB). Implemented feature extraction techniques achieving 66-94% accuracy rates with
+                            user-friendly Streamlit interface.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Bioinformatics</span>
+                            <span class="project-tag">XGBoost</span>
+                            <span class="project-tag">Streamlit</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> 94% Accuracy, Published in Journal of
+                                Bioinformatics, Listed on Pubmed
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-database" style="color: var(--primary-color);"></i> ETL for Financial and
+                            Taxation Data</h3>
+                        <p>Developed algorithm for fuzzy matching in data, performed fuzzy matching with different data
+                            sources, created views and materialized views, and developed LangChain solution for LLM
+                            queries from major tables for Ministry of Budget, Côte d'Ivoire.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">SQL</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">LangChain</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> Government of Côte d'Ivoire, Public Sector
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-camera" style="color: var(--primary-color);"></i> Adaptive Image
+                            Restoration</h3>
+                        <p>Real-time image restoration solution for video surveillance using transfer learning with
+                            ResNet50 to identify image degradation types and apply appropriate restoration models.
+                            Published research with practical surveillance applications.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">ResNet50</span>
+                            <span class="project-tag">Real-time</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> Published in Journal, Presented at Conference
+                                (SIADE-2025)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-exclamation-triangle" style="color: var(--primary-color);"></i> Real-Time
+                            Incident Detection</h3>
+                        <p>Led development of real-time incident detection system using YOLOv8, built custom dataset of
+                            labeled images, and achieved 87% accuracy in detecting incidents in video streams for ESATIC
+                            SAH International.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">YOLOv8</span>
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">Real-time</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> Presented at Conference (SIADE-2025), Realtime
+                                Processing & Alert System, ESATIC & SAH International
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-credit-card" style="color: var(--primary-color);"></i> Digital Credit
+                            Scoring System</h3>
+                        <p>Built POC for credit scoring using digital footprints, designed data collection model,
+                            integrated third-party APIs, and collected 300+ data points using SEON and Credolab for
+                            QisstPay-BNPL.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">FinTech</span>
+                            <span class="project-tag">Credit Scoring</span>
+                            <span class="project-tag">API Integration</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> 300+ Data Points Collected, Integrated SEON &
+                                Credolab APIs, QisstPay-BNPL Backend
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3><i class="fas fa-route" style="color: var(--primary-color);"></i> Trajectory Data Mining
+                        </h3>
+                        <p>Comprehensive research project involving GPS trajectory mining, map-matching with OSRM, and
+                            ML/DL models (ANN, MLP, LSTM) for travel time prediction. Published IEEE conference paper
+                            with 30 seconds to 1.2 minutes accuracy on 10-60 minute trips.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">GPS Mining</span>
+                            <span class="project-tag">Deep Learning</span>
+                            <span class="project-tag">QGIS</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-impact">
+                                <i class="fas fa-check-circle"></i> Published in IEEE Conference Paper, 30 seconds to
+                                1.2 minutes accuracy on 10-60 minute trips
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section-padding">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
+                <h2>Research Publications</h2>
+                <p>Contributing to the advancement of AI and machine learning research</p>
+            </div>
+
+            <div class="grid gap-4">
+                <div class="publication-item fade-in-up">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3>Machine Learning Driven Dashboard for Chronic Myeloid Leukemia Prediction using Protein
+                            Sequences</h3>
+                        <p class="pub-meta">PLOS One, Vol. 20, No. 6</p>
+                        <p class="pub-abstract">Developed ML dashboard for CML prediction using protein sequences from
+                            key genes (BCL2, HSP90, PARP, RB). Implemented feature extraction techniques achieving
+                            66-94% accuracy rates with user-friendly Streamlit interface for early detection of chronic
+                            myeloid leukemia.</p>
+                        <div class="pub-links">
+                            <a href="https://doi.org/10.1371/journal.pone.0321761" target="_blank"
+                                class="btn btn--outline btn--sm">View Paper <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-item fade-in-up">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3>Adaptive Image Restoration for Video Surveillance: A Real-Time Approach</h3>
+                        <p class="pub-meta">Annual Methodological Archive Research Review, Vol. 3, No. 5, pp. 296-321
+                        </p>
+                        <p class="pub-abstract">Real-time image restoration solution for video surveillance using
+                            transfer learning with ResNet50 to identify image degradation types and apply appropriate
+                            restoration models. Achieved 97% accuracy in degradation classification with flexible and
+                            scalable architecture.</p>
+                        <div class="pub-links">
+                            <a href="https://doi.org/10.63075/2jepm102" target="_blank"
+                                class="btn btn--outline btn--sm">View Paper <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-item fade-in-up">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <h3>Trajectory Data Mining and Trip Travel Time Prediction on Specific Roads</h3>
+                        <p class="pub-meta">IEEE 2024 International Conference on Engineering Computing Technologies
+                            (ICECT)</p>
+                        <p class="pub-abstract">Comprehensive pipeline for mining GPS trajectory data and applying ANN,
+                            MLP, and LSTM models to predict trip travel times on frequent routes in Islamabad, Pakistan.
+                            Achieved prediction accuracy within 30 seconds to 1.2 minutes for trips lasting 10-60
+                            minutes.</p>
+                        <div class="pub-links">
+                            <a href="https://doi.org/10.1109/ICECT61618.2024.10581284" target="_blank"
+                                class="btn btn--outline btn--sm">View Paper <i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://arxiv.org/abs/2407.07030" target="_blank"
+                                class="btn btn--outline btn--sm">arXiv <i class="fas fa-file-pdf"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-item fade-in-up">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <h3>Systematic Literature Review on Swarms of UAVs</h3>
+                        <p class="pub-meta">Spectrum of Engineering Sciences, Vol. 2, No. 4, pp. 386-415</p>
+                        <p class="pub-abstract">Comprehensive systematic literature review of UAV swarm technologies
+                            covering coordination algorithms, communication protocols, applications in disaster
+                            management and firefighting operations, challenges, and future research directions in swarm
+                            UAV systems.</p>
+                        <div class="pub-links">
+                            <a href="https://sesjournal.com/index.php/1/article/view/83" target="_blank"
+                                class="btn btn--outline btn--sm">View Article <i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a href="https://sesjournal.com/index.php/1/article/view/83/83" target="_blank"
+                                class="btn btn--outline btn--sm">PDF <i class="fas fa-file-pdf"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: var(--space-12);">
+                <h2>Get In Touch</h2>
+                <p>Ready to discuss your next AI/ML project?</p>
+            </div>
+
+            <div class="contact-container fade-in-up">
                 <div class="contact-info">
                     <h3>Let's Connect</h3>
-                    <p>I'm always interested in discussing new opportunities, innovative projects, and potential collaborations in the AI and ML space. Whether you're looking for consultation, development, or research partnerships, I'd love to hear from you.</p>
+                    <p>I'm always interested in discussing new opportunities, innovative projects, and potential
+                        collaborations in the AI and ML space. Whether you're looking for consultation, development, or
+                        research partnerships, I'd love to hear from you.</p>
 
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <div>
-                                <strong>Email</strong>
-                                <span>awais2815@gmail.com</span>
+                    <div class="contact-details" style="margin-top: var(--space-8);">
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="info-content">
+                                <h5>Email</h5>
+                                <a href="mailto:awais2815@gmail.com">awais2815@gmail.com</a>
                             </div>
                         </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
-                                <strong>Location</strong>
-                                <span>Islamabad, Pakistan</span>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="info-content">
+                                <h5>Location</h5>
+                                <p>Islamabad, Pakistan</p>
                             </div>
                         </div>
-                        <div class="contact-item">
-                            <i class="fas fa-briefcase"></i>
-                            <div>
-                                <strong>Current Role</strong>
-                                <span>Data Science Consultant / Lead Data Scientist</span>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-clock"></i>
-                            <div>
-                                <strong>Availability</strong>
-                                <span>Open to PhD Positions</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/awaismalik1x/" class="social-link" target="_blank" title="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://github.com/awaismalik1x" class="social-link" target="_blank" title="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://scholar.google.com/citations?user=RpfNoFwAAAAJ&hl=en" class="social-link" target="_blank" title="Google Scholar">
-                            <i class="fab fa-google"></i>
-                        </a>
-                        <a href="https://orcid.org/0009-0001-4445-7606" class="social-link" target="_blank" title="ORCID">
-                            <i class="fab fa-orcid"></i>
-                        </a>
-<!--                         <a href="https://www.awaisamin.site/" class="social-link" target="_blank" title="Website">
-                            <i class="fas fa-globe"></i>
-                        </a> -->
                     </div>
                 </div>
 
-                <div class="contact-form-container">
+                <div class="contact-form">
                     <form id="contact-form" action="https://formspree.io/f/xkgzkalk" method="POST">
                         <div class="form-group">
                             <label for="name" class="form-label">Name</label>
@@ -1255,9 +1191,9 @@
                             <input type="email" id="email" name="email" class="form-control" required>
                         </div>
                         <div class="form-group">
-                            <label for="subject" class="form-label">Subject</label>
-                            <select id="subject" name="subject" class="form-control" required>
-                                <option value="">Select a subject</option>
+                            <label for="category" class="form-label">Category</label>
+                            <select id="category" name="category" class="form-control" required>
+                                <option value="">Select a category</option>
                                 <option value="consultation">ML/AI Consultation</option>
                                 <option value="project">Project Collaboration</option>
                                 <option value="research">Research Partnership</option>
@@ -1267,10 +1203,10 @@
                         </div>
                         <div class="form-group">
                             <label for="message" class="form-label">Message</label>
-                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                            <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn--primary btn--lg btn--full-width">
-                            <i class="fas fa-paper-plane"></i> Send Message
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            Send Message <i class="fas fa-paper-plane"></i>
                         </button>
                     </form>
                 </div>
@@ -1279,16 +1215,13 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2024 Muhammad Awais Amin. All rights reserved.</p>
-                <p>Senior Machine Learning Engineer | Data Science Consultant | AI/ML Specialist</p>
-            </div>
+            <p>&copy; 2026 Muhammad Awais Amin. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- JavaScript -->
     <script src="app.js"></script>
 </body>
+
 </html>
