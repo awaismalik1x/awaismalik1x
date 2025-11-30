@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-A premium, responsive personal portfolio website designed for a Senior Machine Learning Engineer and Data Scientist. This project showcases professional experience, skills, certifications, projects, and research publications with a modern, high-contrast aesthetic.
+A premium, responsive personal portfolio website designed Machine Learning Engineer and Data Scientist. This portfolio showcases professional experience, skills, certifications, projects, and research publications with a modern, high-contrast aesthetic.
 
 ## Features
 
