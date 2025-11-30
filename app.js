@@ -1,7 +1,8 @@
-// Portfolio Website JavaScript - Fixed Version
+// Portfolio Website JavaScript - Enhanced Version
 
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize all components
+    initThemeToggle();
     initNavigation();
     initScrollAnimations();
     initSkillBars();
@@ -9,10 +10,50 @@ document.addEventListener('DOMContentLoaded', function() {
     initParticles();
     initTypingAnimation();
     addScrollToTopButton();
-    initThemeToggle();
     initHoverEffects();
     initKeyboardNavigation();
+    initEducationAnimations();
+    initPublicationsAnimations();
 });
+
+// Theme Toggle functionality - Enhanced
+function initThemeToggle() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    const html = document.documentElement;
+    
+    // Check for saved theme preference or default to light
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    html.setAttribute('data-color-scheme', savedTheme);
+    updateThemeIcon(savedTheme);
+
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-color-scheme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-color-scheme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+            
+            // Add animation class
+            themeToggle.classList.add('rotating');
+            setTimeout(() => {
+                themeToggle.classList.remove('rotating');
+            }, 300);
+        });
+    }
+
+    function updateThemeIcon(theme) {
+        if (themeIcon) {
+            if (theme === 'dark') {
+                themeIcon.className = 'fas fa-sun';
+            } else {
+                themeIcon.className = 'fas fa-moon';
+            }
+        }
+    }
+}
 
 // Navigation functionality - Fixed
 function initNavigation() {
@@ -454,6 +495,7 @@ function addScrollToTopButton() {
     const scrollButton = document.createElement('button');
     scrollButton.innerHTML = '<i class="fas fa-arrow-up"></i>';
     scrollButton.className = 'scroll-to-top';
+    scrollButton.setAttribute('aria-label', 'Scroll to top');
     scrollButton.style.cssText = `
         position: fixed;
         bottom: 30px;
@@ -468,7 +510,7 @@ function addScrollToTopButton() {
         opacity: 0;
         transform: translateY(20px);
         transition: all 0.3s ease;
-        z-index: 1000;
+        z-index: 999;
         box-shadow: var(--shadow-lg);
         font-size: 18px;
     `;
@@ -494,50 +536,8 @@ function addScrollToTopButton() {
     });
 }
 
-// Add theme toggle functionality
-function initThemeToggle() {
-    const themeToggle = document.createElement('button');
-    themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
-    themeToggle.className = 'theme-toggle';
-    themeToggle.title = 'Toggle dark mode';
-    
-    themeToggle.style.cssText = `
-        position: fixed;
-        top: 50%;
-        left: 20px;
-        transform: translateY(-50%);
-        width: 50px;
-        height: 50px;
-        background: var(--color-surface);
-        color: var(--color-text);
-        border: 1px solid var(--color-border);
-        border-radius: 50%;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        z-index: 1000;
-        box-shadow: var(--shadow-md);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 18px;
-    `;
-
-    themeToggle.addEventListener('click', () => {
-        const isDark = document.documentElement.getAttribute('data-color-scheme') === 'dark';
-        
-        if (isDark) {
-            document.documentElement.setAttribute('data-color-scheme', 'light');
-            themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
-            themeToggle.title = 'Switch to dark mode';
-        } else {
-            document.documentElement.setAttribute('data-color-scheme', 'dark');
-            themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
-            themeToggle.title = 'Switch to light mode';
-        }
-    });
-
-    document.body.appendChild(themeToggle);
-}
+// Remove the old initThemeToggle function that creates a button
+// It's now replaced with the new one that uses the button in HTML
 
 // Add hover effects for interactive elements
 function initHoverEffects() {
@@ -633,7 +633,8 @@ function initPublicationsAnimations() {
 
 // Update the main initialization function
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize all existing components
+    // Initialize all components
+    initThemeToggle();
     initNavigation();
     initScrollAnimations();
     initSkillBars();
@@ -641,11 +642,8 @@ document.addEventListener('DOMContentLoaded', function() {
     initParticles();
     initTypingAnimation();
     addScrollToTopButton();
-    initThemeToggle();
     initHoverEffects();
     initKeyboardNavigation();
-
-    // Initialize new section animations
     initEducationAnimations();
     initPublicationsAnimations();
 });
